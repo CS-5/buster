@@ -53,6 +53,7 @@ function main() {
   });
 
   client.registry
+    .registerGroups([["fun", "Fun and games"]])
     .registerGroups([["utils", "Yanno, useful stuff"]])
     .registerDefaults()
     .registerCommandsIn({
